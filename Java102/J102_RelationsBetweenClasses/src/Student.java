@@ -43,7 +43,4 @@ public class Student {
         this.note = note;
     }
     
-    
-    
-    
 }

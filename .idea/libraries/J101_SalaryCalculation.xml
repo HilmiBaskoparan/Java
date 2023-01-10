@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="J101_SalaryCalculation">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/Java101/J101_SalaryCalculation/dist/J101_SalaryCalculation.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

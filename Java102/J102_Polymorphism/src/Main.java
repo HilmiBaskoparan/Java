@@ -26,11 +26,11 @@ public class Main {
         Cat c1 = new Cat("Nasip");
 
         if (c1 instanceof Cat){
-            System.out.println("Bu nesne Kedi sınıfından");
+            System.out.println("Bu nesne Kedi sinifindan");
         }
 
         if (c1 instanceof Animal){
-            System.out.println("Bu nesne Hayvan sınıfından");
+            System.out.println("Bu nesne Hayvan sinifindan");
         }
 
         //Fonksiyon ile gösterim

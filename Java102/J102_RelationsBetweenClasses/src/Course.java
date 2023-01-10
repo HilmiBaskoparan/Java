@@ -41,8 +41,5 @@ public class Course {
         double avg = sum / students.length;
         return avg;
     }
-
-    
-    
     
 }
