@@ -130,7 +130,7 @@ public class MyList<T> {
     }
     
     public MyList<T> subList(int start, int finish) {
-        
+
     }
     
     public int getCapacity() {
