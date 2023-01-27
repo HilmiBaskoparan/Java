@@ -19,7 +19,7 @@ public class Main {
         set.add(a4);
         set.add(a5);
 
-        System.out.println("********** ORDER BY NAME **********");
+        System.out.println("********** ORDER BY BOOK NAME **********");
         for (Book b : set) {
             System.out.println(b.getPageNumber() + "\t" + b.getBookName());
         }
@@ -39,18 +39,13 @@ public class Main {
         set2.add(a4);
         set2.add(a5);
 
-        System.out.println("\n********** ORDER BY PAGE SIZE **********");
+        System.out.println("\n********** ORDER BY PAGE NUMBER **********");
         for (Book b : set2) {
             System.out.println(b.getPageNumber() + "\t" + b.getBookName());
         }
 
         // Create with PriorityQueue
-        PriorityQueue<Book> pq = new PriorityQueue<>(new Comparator<Book>() {
-            @Override
-            public int compare(Book o1, Book o2) {
-                return o1.getAuthor().compareTo(o2.getAuthor());
-            }
-        });
+        PriorityQueue<Book> pq = new PriorityQueue<>();
 
         pq.add(a1);
         pq.add(a2);
@@ -58,9 +53,9 @@ public class Main {
         pq.add(a4);
         pq.add(a5);
 
-        System.out.println("\n********** ORDER BY PAGE AUTHOR NAME**********");
+        System.out.println("\n********** ORDER BY PAGE BOOK NAME**********");
         for (Book b : pq) {
-            System.out.println(b.getAuthor() + " " + b.getBookName() + " " + b.getPageNumber());
+            System.out.println(b.getBookName() + " " + b.getBookName() + " " + b.getPageNumber());
         }
 
     }
