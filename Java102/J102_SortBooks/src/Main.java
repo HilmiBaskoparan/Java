@@ -53,7 +53,7 @@ public class Main {
         pq.add(a4);
         pq.add(a5);
 
-        System.out.println("\n********** ORDER BY PAGE BOOK NAME**********");
+        System.out.println("\n********** ORDER BY BOOK NAME**********");
         for (Book b : pq) {
             System.out.println(b.getBookName() + " " + b.getBookName() + " " + b.getPageNumber());
         }
